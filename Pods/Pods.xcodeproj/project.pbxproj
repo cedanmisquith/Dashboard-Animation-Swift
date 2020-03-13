@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0766E9636731A9770F3DEE526AFBC44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		10BC0F097EA821A1C2135676309B7B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		225A028ABDACA43238BC6C73D96FF278 /* Pods-iPadAnimationTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0803A462FE273EC5DA0BF2B3D5CC66F /* Pods-iPadAnimationTest-dummy.m */; };
+		261E612FCFBAEB8BB072C6239092CE36 /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E41B7CF9AA5206B25C5351CFC1EABA /* MIBadgeButton.swift */; };
+		564347B0FDC931FF8B232F47262118A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		74A0E0A52A830E7336024B578F5A92C0 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D501BF7690D5FD76920F3F674BDE267 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-dummy.m */; };
+		79ACAB4928D95F4A24ADFA43CBD84E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		94F57B563B7C9A49D4340C768DBB9225 /* Pods-iPadAnimationTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F993917AD4E5CC735FF91BF98E2518D1 /* Pods-iPadAnimationTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A718D969C086C4BB02B3FB29FC9D522D /* Pods-iPadAnimationTest-iPadAnimationTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B366B1AA7D21C105441FE92F00A78B /* Pods-iPadAnimationTest-iPadAnimationTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8557342748C63AC42A3213E271A4B4E /* MIBadgeButton-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97614F5CC5D77ACBF2DA14F2CA0ABC88 /* MIBadgeButton-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97DCB58519765A0D4605A7618BA6D05 /* MIBadgeButton-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC01C020140D215BA24A04264F60917 /* MIBadgeButton-Swift-dummy.m */; };
+		D9568A878044FC70B7E9157712578F4A /* Pods-iPadAnimationTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0ECA20FC626A1D7C0383A3E54834FE /* Pods-iPadAnimationTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB68D2CF92789E91CD65ECAB1C9B27C /* Pods-iPadAnimationTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4380EB659ACB558B8601391B63B3CD0D /* Pods-iPadAnimationTestTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A1FF743B3AC44751911649A3230A5DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8AB78881066CC1F8B3D2F402ADE8BD;
+			remoteInfo = "MIBadgeButton-Swift";
+		};
+		7AF8B27CD3B042337907CCC8BF8F0B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8AB78881066CC1F8B3D2F402ADE8BD;
+			remoteInfo = "MIBadgeButton-Swift";
+		};
+		DE01F56B4255FD84F1C29B933EDF3B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FC9BD62C34F7A06C1A5F63B93A32AB;
+			remoteInfo = "Pods-iPadAnimationTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E8DBDB97C792D4537307D02A44ACA2 /* Pods-iPadAnimationTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPadAnimationTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AC01C020140D215BA24A04264F60917 /* MIBadgeButton-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MIBadgeButton-Swift-dummy.m"; sourceTree = "<group>"; };
+		1D8246DA028DAFF8584C41697D127223 /* Pods-iPadAnimationTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPadAnimationTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CCE3742F5B4A6EAFC871028F74C3984 /* Pods-iPadAnimationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPadAnimationTest.debug.xcconfig"; sourceTree = "<group>"; };
+		31CC45BC70E611E52F86519F5277CFC7 /* Pods_iPadAnimationTest_iPadAnimationTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iPadAnimationTest_iPadAnimationTestUITests.framework; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33EB6355629F47E36F73750874B0F5C9 /* Pods-iPadAnimationTest-iPadAnimationTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests.modulemap"; sourceTree = "<group>"; };
+		3AC2C8CF760D02292F6FEFE94DCDC9AA /* Pods-iPadAnimationTest-iPadAnimationTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FFA8B6F2E08FE6462349D11CFDFA95A /* Pods-iPadAnimationTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPadAnimationTest-frameworks.sh"; sourceTree = "<group>"; };
+		4380EB659ACB558B8601391B63B3CD0D /* Pods-iPadAnimationTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPadAnimationTestTests-dummy.m"; sourceTree = "<group>"; };
+		48914878BA99A4371F8022ABBEA4233B /* Pods-iPadAnimationTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPadAnimationTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FA44CF3A02EE52DD7285A9CCDA4993D /* Pods-iPadAnimationTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iPadAnimationTestTests.modulemap"; sourceTree = "<group>"; };
+		5837C58B7A447CDF1470A1C1EF6E59C7 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5F2F037C72993B80C57977CA70CDD4CF /* Pods-iPadAnimationTest-iPadAnimationTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		62E41B7CF9AA5206B25C5351CFC1EABA /* MIBadgeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIBadgeButton.swift; path = Classes/MIBadgeButton.swift; sourceTree = "<group>"; };
+		63D99EC054089D6A986C68B0B02327D2 /* Pods-iPadAnimationTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPadAnimationTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F84D103093F7C8180F1D060122A1DA2 /* Pods-iPadAnimationTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPadAnimationTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FB6397F6213DBBCBD28584A2E3C4B25 /* MIBadgeButton-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MIBadgeButton-Swift-prefix.pch"; sourceTree = "<group>"; };
+		7795F786FC19B850CB0CC3650345CF86 /* Pods-iPadAnimationTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPadAnimationTest-Info.plist"; sourceTree = "<group>"; };
+		7D501BF7690D5FD76920F3F674BDE267 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests-dummy.m"; sourceTree = "<group>"; };
+		89DF1ACB944D0D73E1F1024BE9C951E5 /* Pods_iPadAnimationTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iPadAnimationTest.framework; path = "Pods-iPadAnimationTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A87F820A891F868E3585F9571A375FE /* Pods-iPadAnimationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPadAnimationTest.release.xcconfig"; sourceTree = "<group>"; };
+		97614F5CC5D77ACBF2DA14F2CA0ABC88 /* MIBadgeButton-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MIBadgeButton-Swift-umbrella.h"; sourceTree = "<group>"; };
+		985CABD92489B8275B07433FFAD315C7 /* Pods-iPadAnimationTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iPadAnimationTest.modulemap"; sourceTree = "<group>"; };
+		99568F7575E15DB2E40B6C43F8DFB108 /* Pods-iPadAnimationTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPadAnimationTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A1AE2F86B243DA79CC20F4E87630D36 /* Pods-iPadAnimationTest-iPadAnimationTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B04867A9912D650DFA4271A05011CC0C /* MIBadgeButton-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MIBadgeButton-Swift.xcconfig"; sourceTree = "<group>"; };
+		B0803A462FE273EC5DA0BF2B3D5CC66F /* Pods-iPadAnimationTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPadAnimationTest-dummy.m"; sourceTree = "<group>"; };
+		B8A84464A3427424E9CDC275D58F90EA /* MIBadgeButton-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MIBadgeButton-Swift-Info.plist"; sourceTree = "<group>"; };
+		BE0ECA20FC626A1D7C0383A3E54834FE /* Pods-iPadAnimationTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPadAnimationTest-umbrella.h"; sourceTree = "<group>"; };
+		C040F220A5CCC8AABD55AF790E3D61E6 /* MIBadgeButton_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MIBadgeButton_Swift.framework; path = "MIBadgeButton-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B366B1AA7D21C105441FE92F00A78B /* Pods-iPadAnimationTest-iPadAnimationTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		CE15388FEDAA94AAF06BAF5A879D0D5F /* MIBadgeButton-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MIBadgeButton-Swift.modulemap"; sourceTree = "<group>"; };
+		CFF3068A21B0FEECDCD31C5BD7A03818 /* Pods_iPadAnimationTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iPadAnimationTestTests.framework; path = "Pods-iPadAnimationTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52BE471F81CFE47A9093DDE27FEC9F7 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests-Info.plist"; sourceTree = "<group>"; };
+		F993917AD4E5CC735FF91BF98E2518D1 /* Pods-iPadAnimationTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPadAnimationTestTests-umbrella.h"; sourceTree = "<group>"; };
+		FE4DFF1ED527BCE186F3A076205CEFB3 /* Pods-iPadAnimationTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPadAnimationTestTests-Info.plist"; sourceTree = "<group>"; };
+		FEE69398EFEE59D61F059C103D78C26F /* Pods-iPadAnimationTest-iPadAnimationTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPadAnimationTest-iPadAnimationTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55244B4BF510F7C550762DC1F6C41040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564347B0FDC931FF8B232F47262118A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927784039E9C392C366591694BA94396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0766E9636731A9770F3DEE526AFBC44E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCD0AA87D8B377E92C634AD5D42D054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ACAB4928D95F4A24ADFA43CBD84E62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD1F61868330EE9C5A8107CEAEB6CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BC0F097EA821A1C2135676309B7B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C70692887875E7E3586CD40F7F115D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E9F6546659BF3378F3EFFFA74E4F37B /* MIBadgeButton-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D72BCDD6553A104F57EF8AF0CF99118 /* Pods-iPadAnimationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA44CF3A02EE52DD7285A9CCDA4993D /* Pods-iPadAnimationTestTests.modulemap */,
+				48914878BA99A4371F8022ABBEA4233B /* Pods-iPadAnimationTestTests-acknowledgements.markdown */,
+				04E8DBDB97C792D4537307D02A44ACA2 /* Pods-iPadAnimationTestTests-acknowledgements.plist */,
+				4380EB659ACB558B8601391B63B3CD0D /* Pods-iPadAnimationTestTests-dummy.m */,
+				FE4DFF1ED527BCE186F3A076205CEFB3 /* Pods-iPadAnimationTestTests-Info.plist */,
+				F993917AD4E5CC735FF91BF98E2518D1 /* Pods-iPadAnimationTestTests-umbrella.h */,
+				6F84D103093F7C8180F1D060122A1DA2 /* Pods-iPadAnimationTestTests.debug.xcconfig */,
+				63D99EC054089D6A986C68B0B02327D2 /* Pods-iPadAnimationTestTests.release.xcconfig */,
+			);
+			name = "Pods-iPadAnimationTestTests";
+			path = "Target Support Files/Pods-iPadAnimationTestTests";
+			sourceTree = "<group>";
+		};
+		5E9F6546659BF3378F3EFFFA74E4F37B /* MIBadgeButton-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				62E41B7CF9AA5206B25C5351CFC1EABA /* MIBadgeButton.swift */,
+				F8DF2134BC2FC1AED2D102855CCEB390 /* Support Files */,
+			);
+			name = "MIBadgeButton-Swift";
+			path = "MIBadgeButton-Swift";
+			sourceTree = "<group>";
+		};
+		A01A6A1D0120C246C698BFE9184F0070 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C26F018C95F2F598A3CD22AAFC0806A6 /* Pods-iPadAnimationTest */,
+				D65EB7353760D19FB670DD394605D325 /* Pods-iPadAnimationTest-iPadAnimationTestUITests */,
+				3D72BCDD6553A104F57EF8AF0CF99118 /* Pods-iPadAnimationTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C26F018C95F2F598A3CD22AAFC0806A6 /* Pods-iPadAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				985CABD92489B8275B07433FFAD315C7 /* Pods-iPadAnimationTest.modulemap */,
+				99568F7575E15DB2E40B6C43F8DFB108 /* Pods-iPadAnimationTest-acknowledgements.markdown */,
+				1D8246DA028DAFF8584C41697D127223 /* Pods-iPadAnimationTest-acknowledgements.plist */,
+				B0803A462FE273EC5DA0BF2B3D5CC66F /* Pods-iPadAnimationTest-dummy.m */,
+				3FFA8B6F2E08FE6462349D11CFDFA95A /* Pods-iPadAnimationTest-frameworks.sh */,
+				7795F786FC19B850CB0CC3650345CF86 /* Pods-iPadAnimationTest-Info.plist */,
+				BE0ECA20FC626A1D7C0383A3E54834FE /* Pods-iPadAnimationTest-umbrella.h */,
+				2CCE3742F5B4A6EAFC871028F74C3984 /* Pods-iPadAnimationTest.debug.xcconfig */,
+				8A87F820A891F868E3585F9571A375FE /* Pods-iPadAnimationTest.release.xcconfig */,
+			);
+			name = "Pods-iPadAnimationTest";
+			path = "Target Support Files/Pods-iPadAnimationTest";
+			sourceTree = "<group>";
+		};
+		C5463BA4FF39F1D8CB6D1991BA9401BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C040F220A5CCC8AABD55AF790E3D61E6 /* MIBadgeButton_Swift.framework */,
+				89DF1ACB944D0D73E1F1024BE9C951E5 /* Pods_iPadAnimationTest.framework */,
+				31CC45BC70E611E52F86519F5277CFC7 /* Pods_iPadAnimationTest_iPadAnimationTestUITests.framework */,
+				CFF3068A21B0FEECDCD31C5BD7A03818 /* Pods_iPadAnimationTestTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3C70692887875E7E3586CD40F7F115D2 /* Pods */,
+				C5463BA4FF39F1D8CB6D1991BA9401BD /* Products */,
+				A01A6A1D0120C246C698BFE9184F0070 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D65EB7353760D19FB670DD394605D325 /* Pods-iPadAnimationTest-iPadAnimationTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33EB6355629F47E36F73750874B0F5C9 /* Pods-iPadAnimationTest-iPadAnimationTestUITests.modulemap */,
+				FEE69398EFEE59D61F059C103D78C26F /* Pods-iPadAnimationTest-iPadAnimationTestUITests-acknowledgements.markdown */,
+				5F2F037C72993B80C57977CA70CDD4CF /* Pods-iPadAnimationTest-iPadAnimationTestUITests-acknowledgements.plist */,
+				7D501BF7690D5FD76920F3F674BDE267 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-dummy.m */,
+				5837C58B7A447CDF1470A1C1EF6E59C7 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-frameworks.sh */,
+				F52BE471F81CFE47A9093DDE27FEC9F7 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-Info.plist */,
+				C1B366B1AA7D21C105441FE92F00A78B /* Pods-iPadAnimationTest-iPadAnimationTestUITests-umbrella.h */,
+				3AC2C8CF760D02292F6FEFE94DCDC9AA /* Pods-iPadAnimationTest-iPadAnimationTestUITests.debug.xcconfig */,
+				9A1AE2F86B243DA79CC20F4E87630D36 /* Pods-iPadAnimationTest-iPadAnimationTestUITests.release.xcconfig */,
+			);
+			name = "Pods-iPadAnimationTest-iPadAnimationTestUITests";
+			path = "Target Support Files/Pods-iPadAnimationTest-iPadAnimationTestUITests";
+			sourceTree = "<group>";
+		};
+		F8DF2134BC2FC1AED2D102855CCEB390 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE15388FEDAA94AAF06BAF5A879D0D5F /* MIBadgeButton-Swift.modulemap */,
+				B04867A9912D650DFA4271A05011CC0C /* MIBadgeButton-Swift.xcconfig */,
+				0AC01C020140D215BA24A04264F60917 /* MIBadgeButton-Swift-dummy.m */,
+				B8A84464A3427424E9CDC275D58F90EA /* MIBadgeButton-Swift-Info.plist */,
+				6FB6397F6213DBBCBD28584A2E3C4B25 /* MIBadgeButton-Swift-prefix.pch */,
+				97614F5CC5D77ACBF2DA14F2CA0ABC88 /* MIBadgeButton-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MIBadgeButton-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		560454FF0892380934FC31FADE99E552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A718D969C086C4BB02B3FB29FC9D522D /* Pods-iPadAnimationTest-iPadAnimationTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7C92EDDCA736925224D397B101F4AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8557342748C63AC42A3213E271A4B4E /* MIBadgeButton-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66F293FDB488C7C323B5C38A7E2A1E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F57B563B7C9A49D4340C768DBB9225 /* Pods-iPadAnimationTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA6DBFC218E7CF8B499FE9C252DF4C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9568A878044FC70B7E9157712578F4A /* Pods-iPadAnimationTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B8AB78881066CC1F8B3D2F402ADE8BD /* MIBadgeButton-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730AF53115A615F7051C1139833E0129 /* Build configuration list for PBXNativeTarget "MIBadgeButton-Swift" */;
+			buildPhases = (
+				8E7C92EDDCA736925224D397B101F4AA /* Headers */,
+				1A89A6D5B2A7FA60BE0EEF8669EB3642 /* Sources */,
+				CAD1F61868330EE9C5A8107CEAEB6CF2 /* Frameworks */,
+				594635AA7D9254E59A1107AA9B383650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MIBadgeButton-Swift";
+			productName = "MIBadgeButton-Swift";
+			productReference = C040F220A5CCC8AABD55AF790E3D61E6 /* MIBadgeButton_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0FC9BD62C34F7A06C1A5F63B93A32AB /* Pods-iPadAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10EE42348DF508550BBEE768567F8091 /* Build configuration list for PBXNativeTarget "Pods-iPadAnimationTest" */;
+			buildPhases = (
+				FAA6DBFC218E7CF8B499FE9C252DF4C4 /* Headers */,
+				55E62106E0C6490A2EE1C407BCF6E6A9 /* Sources */,
+				55244B4BF510F7C550762DC1F6C41040 /* Frameworks */,
+				6960FB2B5D9F1E8DF68D8E1B5D96FACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A2FB6A596CA35DD911614C659CDC5E /* PBXTargetDependency */,
+			);
+			name = "Pods-iPadAnimationTest";
+			productName = "Pods-iPadAnimationTest";
+			productReference = 89DF1ACB944D0D73E1F1024BE9C951E5 /* Pods_iPadAnimationTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAAF096BBAE64272BDA5FFD747C07AED /* Pods-iPadAnimationTest-iPadAnimationTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F035CBBB1B22E97F25DE0D1F5A7F367D /* Build configuration list for PBXNativeTarget "Pods-iPadAnimationTest-iPadAnimationTestUITests" */;
+			buildPhases = (
+				560454FF0892380934FC31FADE99E552 /* Headers */,
+				E52E5C22E8A5B2FE1BA277A5F83E715B /* Sources */,
+				BBCD0AA87D8B377E92C634AD5D42D054 /* Frameworks */,
+				3044DA9532C3232591C449821D522D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5587743FE664C21A77F5F1E33FB5417 /* PBXTargetDependency */,
+			);
+			name = "Pods-iPadAnimationTest-iPadAnimationTestUITests";
+			productName = "Pods-iPadAnimationTest-iPadAnimationTestUITests";
+			productReference = 31CC45BC70E611E52F86519F5277CFC7 /* Pods_iPadAnimationTest_iPadAnimationTestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFE4B807CCB885946394474D0DF0CDD1 /* Pods-iPadAnimationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C44A3E383FB6BDD00CDDC62DEDFCF4 /* Build configuration list for PBXNativeTarget "Pods-iPadAnimationTestTests" */;
+			buildPhases = (
+				D66F293FDB488C7C323B5C38A7E2A1E3 /* Headers */,
+				B61EC646F7B5CF5644F616B649E1CD2D /* Sources */,
+				927784039E9C392C366591694BA94396 /* Frameworks */,
+				F1BDC0EB77155FDF8AEBAA694995FD27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D66367B4E159A45EB4442E6944A34F /* PBXTargetDependency */,
+			);
+			name = "Pods-iPadAnimationTestTests";
+			productName = "Pods-iPadAnimationTestTests";
+			productReference = CFF3068A21B0FEECDCD31C5BD7A03818 /* Pods_iPadAnimationTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C5463BA4FF39F1D8CB6D1991BA9401BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B8AB78881066CC1F8B3D2F402ADE8BD /* MIBadgeButton-Swift */,
+				B0FC9BD62C34F7A06C1A5F63B93A32AB /* Pods-iPadAnimationTest */,
+				BAAF096BBAE64272BDA5FFD747C07AED /* Pods-iPadAnimationTest-iPadAnimationTestUITests */,
+				CFE4B807CCB885946394474D0DF0CDD1 /* Pods-iPadAnimationTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3044DA9532C3232591C449821D522D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594635AA7D9254E59A1107AA9B383650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6960FB2B5D9F1E8DF68D8E1B5D96FACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BDC0EB77155FDF8AEBAA694995FD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A89A6D5B2A7FA60BE0EEF8669EB3642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97DCB58519765A0D4605A7618BA6D05 /* MIBadgeButton-Swift-dummy.m in Sources */,
+				261E612FCFBAEB8BB072C6239092CE36 /* MIBadgeButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E62106E0C6490A2EE1C407BCF6E6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225A028ABDACA43238BC6C73D96FF278 /* Pods-iPadAnimationTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61EC646F7B5CF5644F616B649E1CD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB68D2CF92789E91CD65ECAB1C9B27C /* Pods-iPadAnimationTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E5C22E8A5B2FE1BA277A5F83E715B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A0E0A52A830E7336024B578F5A92C0 /* Pods-iPadAnimationTest-iPadAnimationTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D66367B4E159A45EB4442E6944A34F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iPadAnimationTest";
+			target = B0FC9BD62C34F7A06C1A5F63B93A32AB /* Pods-iPadAnimationTest */;
+			targetProxy = DE01F56B4255FD84F1C29B933EDF3B96 /* PBXContainerItemProxy */;
+		};
+		A5587743FE664C21A77F5F1E33FB5417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MIBadgeButton-Swift";
+			target = 7B8AB78881066CC1F8B3D2F402ADE8BD /* MIBadgeButton-Swift */;
+			targetProxy = 3A1FF743B3AC44751911649A3230A5DE /* PBXContainerItemProxy */;
+		};
+		B8A2FB6A596CA35DD911614C659CDC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MIBadgeButton-Swift";
+			target = 7B8AB78881066CC1F8B3D2F402ADE8BD /* MIBadgeButton-Swift */;
+			targetProxy = 7AF8B27CD3B042337907CCC8BF8F0B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F9D14E4D04CF96ECBACBC785DABE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCE3742F5B4A6EAFC871028F74C3984 /* Pods-iPadAnimationTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPadAnimationTest/Pods-iPadAnimationTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPadAnimationTest/Pods-iPadAnimationTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		463C985FAAC5345795BB1304FF5FE3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F84D103093F7C8180F1D060122A1DA2 /* Pods-iPadAnimationTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPadAnimationTestTests/Pods-iPadAnimationTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPadAnimationTestTests/Pods-iPadAnimationTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51148D080BCA5B0401B122C4AE83E0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A87F820A891F868E3585F9571A375FE /* Pods-iPadAnimationTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPadAnimationTest/Pods-iPadAnimationTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPadAnimationTest/Pods-iPadAnimationTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		570C055DE510FDC06BBF9297EC722BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04867A9912D650DFA4271A05011CC0C /* MIBadgeButton-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MIBadgeButton-Swift/MIBadgeButton-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MIBadgeButton-Swift/MIBadgeButton-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MIBadgeButton-Swift/MIBadgeButton-Swift.modulemap";
+				PRODUCT_MODULE_NAME = MIBadgeButton_Swift;
+				PRODUCT_NAME = MIBadgeButton_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A7B15B3DC0B81FE273C499A76EE0254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC2C8CF760D02292F6FEFE94DCDC9AA /* Pods-iPadAnimationTest-iPadAnimationTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPadAnimationTest-iPadAnimationTestUITests/Pods-iPadAnimationTest-iPadAnimationTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPadAnimationTest-iPadAnimationTestUITests/Pods-iPadAnimationTest-iPadAnimationTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CC8F1A86551F1E440884A7B458F66FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1AE2F86B243DA79CC20F4E87630D36 /* Pods-iPadAnimationTest-iPadAnimationTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPadAnimationTest-iPadAnimationTestUITests/Pods-iPadAnimationTest-iPadAnimationTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPadAnimationTest-iPadAnimationTestUITests/Pods-iPadAnimationTest-iPadAnimationTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F1ABC432FA7FDC5781293CD7BE0AC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D99EC054089D6A986C68B0B02327D2 /* Pods-iPadAnimationTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPadAnimationTestTests/Pods-iPadAnimationTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPadAnimationTestTests/Pods-iPadAnimationTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA7442C0B5234CF071E0E22F5CC4F54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04867A9912D650DFA4271A05011CC0C /* MIBadgeButton-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MIBadgeButton-Swift/MIBadgeButton-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MIBadgeButton-Swift/MIBadgeButton-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MIBadgeButton-Swift/MIBadgeButton-Swift.modulemap";
+				PRODUCT_MODULE_NAME = MIBadgeButton_Swift;
+				PRODUCT_NAME = MIBadgeButton_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C44A3E383FB6BDD00CDDC62DEDFCF4 /* Build configuration list for PBXNativeTarget "Pods-iPadAnimationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463C985FAAC5345795BB1304FF5FE3E6 /* Debug */,
+				9F1ABC432FA7FDC5781293CD7BE0AC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10EE42348DF508550BBEE768567F8091 /* Build configuration list for PBXNativeTarget "Pods-iPadAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F9D14E4D04CF96ECBACBC785DABE1D /* Debug */,
+				51148D080BCA5B0401B122C4AE83E0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730AF53115A615F7051C1139833E0129 /* Build configuration list for PBXNativeTarget "MIBadgeButton-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570C055DE510FDC06BBF9297EC722BD0 /* Debug */,
+				BA7442C0B5234CF071E0E22F5CC4F54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F035CBBB1B22E97F25DE0D1F5A7F367D /* Build configuration list for PBXNativeTarget "Pods-iPadAnimationTest-iPadAnimationTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7B15B3DC0B81FE273C499A76EE0254 /* Debug */,
+				8CC8F1A86551F1E440884A7B458F66FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

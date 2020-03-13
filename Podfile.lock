@@ -1,0 +1,22 @@
+PODS:
+  - MIBadgeButton-Swift (0.5)
+
+DEPENDENCIES:
+  - MIBadgeButton-Swift (from `https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  MIBadgeButton-Swift:
+    :branch: master
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+
+CHECKOUT OPTIONS:
+  MIBadgeButton-Swift:
+    :commit: 3c2638d2e6e46ec2e6dd978d8ada8863df3df5e6
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+
+SPEC CHECKSUMS:
+  MIBadgeButton-Swift: 9e57309b00b168d75ca8fecb45bc75124a8ffddf
+
+PODFILE CHECKSUM: d32a4bad600bff9ce4c2f44090b14fe95a6a617d
+
+COCOAPODS: 1.8.0
